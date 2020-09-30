@@ -10,11 +10,12 @@ package holaMundoMVC.view;
  * 
  * @author Endika Ubierna Lopez
  */
-public interface View{
+public interface View
+{
    
     /**
      * Muestra el saludo que recibe en la interfaz de usuario.
      * @param greeting Este parametro es el String del fichero en el que guardamos el saludo
      */
-    public void showGreeting(String greeting);
+    public void showGreeting(String greeting) ;
 }

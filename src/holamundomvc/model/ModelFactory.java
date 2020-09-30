@@ -10,6 +10,11 @@ package holamundomvc.model;
  * @author Endika Ubierna Lopez
  */
 public class ModelFactory{
+    /**
+     * 
+     * @return Retorna un nuevo modelo. El tipo que devuelve es la interfaz pero en realidad por polimorfismo 
+     * devuelve una nueva instancia de la clase ModelImplementation
+     */
      public Model getModel(){
         return new ModelImplementation();
     }
